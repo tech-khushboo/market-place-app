@@ -73,7 +73,7 @@ function Cart(props) {
                 </Alert>
             </Snackbar>
             <Grid container>
-                <Grid item xs={8} style={{ border: "1px solid #ccc", margin: 30 }}>
+                <Grid item xs={12} sm={8} style={{ border: "1px solid #ccc", margin: 30 }}>
                     {CartListData}
                 </Grid>
                 <Grid item xs style={{ border: "1px solid #ccc", margin: 30, height: "fit-content", padding: 10 }}>
